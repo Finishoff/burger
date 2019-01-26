@@ -1,22 +1,8 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "eat da burger",
-  "main": "server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/finishoff/burger.git"
-  },
-  "keywords": [
-    "burger"
-  ],
-  "author": "Bill Lam",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/finishoff/burger/issues"
-  },
-  "homepage": "https://github.com/finishoff/burger#readme",
+  "description": "![Screenshot of app](https://github.com/Finishoff/Bamazon/blob/master/x)",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
@@ -25,5 +11,19 @@
     "mysql": "^2.16.0",
     "package": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Finishoff/burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Finishoff/burger/issues"
+  },
+  "homepage": "https://github.com/Finishoff/burger#readme"
 }
