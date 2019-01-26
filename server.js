@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var methodOverride = require('method-override');
 
 // Sets an initial port. We"ll use this later in our listener
-var PORT = process.env.PORT || 3031;
+var PORT = process.env.PORT || 3000;
 
 var app = express();
 

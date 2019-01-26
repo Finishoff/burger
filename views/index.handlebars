@@ -1,11 +1,11 @@
 <div class ="container">
 
 <img src="assets/image/burger.png">
-<h1>Nom Nom NOM!</h1>
+<h1>ALL YOU CAN EAT BURGERS!</h1>
 
 <div class="row">
     <div class="col-sm-6">
-      <h2>Burgers you must EAT!</h2>
+      <h2>EAT EAT EAT!</h2>
       {{#each burgers}}
         {{#unless this.devoured}}
           <form id="update" action="/api/burgers/{{this.id}}?_method=PUT" method="POST">
@@ -33,7 +33,7 @@
 
 </div>
 
-<h2>Submit a delicious burger</h2>
+<h2>Create your own burger to add!</h2>
   
   <form id="add" action="/api/burgers/" method="POST">
     <textarea name="burger_name" id="addBurger"></textarea>
