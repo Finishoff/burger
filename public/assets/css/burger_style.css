@@ -1,0 +1,68 @@
+html, body, .container {
+	height: 100%;
+}
+
+body {
+	background-color: yellow;
+	color: #fff;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+button {
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+#update {
+	text-align: center;
+}
+
+#add {
+	display: block;
+	text-align: center;
+	height: 10%;
+}
+
+#add>textarea {
+	width: 60%;
+	height: 100%;
+	color: black;
+	padding: 19px;
+}
+
+#add>button {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.burgerName {
+	float: left;
+	width: 100%;
+	color: #416fec;
+	text-align: center;
+}
+
+.devoured {
+	width: 100%;
+
+}
