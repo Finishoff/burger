@@ -2,7 +2,7 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "eat da burger",
-  "main": "server.js",
+  "main": "server.js"
   },
   "repository": {
     "type": "git",
