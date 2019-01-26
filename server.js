@@ -1,20 +1,20 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var methodOverride = require("method-override");
+var methodOverride = require('method-override');
 
-var port = 3000;
+// Sets an initial port. We"ll use this later in our listener
+var PORT = process.env.PORT || 3000;
 
 var app = express();
 
-// Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static(process.cwd() + "/public"));
+app.use(express.static(process.cwd() + '/public'));
 
+
+// Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(methodOverride('_method'));
+app.use(bodyParser.json());
 
-// Override with POST having ?_method=DELETE
-app.use(methodOverride("_method"));
-
-// Set Handlebars.
 var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
@@ -25,4 +25,6 @@ var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 
-app.listen(port);
+app.listen(PORT, function() {
+    console.log("Listening on PORT " + PORT);
+  });
