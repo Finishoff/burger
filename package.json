@@ -2,7 +2,7 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "![Screenshot of app](https://github.com/Finishoff/Bamazon/blob/master/x)",
-  "main": "server.js",
+  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
