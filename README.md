@@ -12,6 +12,6 @@ How to get started?
 ## What is does this project use?
    *This application utilize: MySQL, Node, Express, Handlebars and a ORM. 
    
-   ## Usage>
+## Usage
    *Techincal demo of using mutiple libraries hand-in-hand.
    
