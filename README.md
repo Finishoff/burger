@@ -7,7 +7,7 @@
 
 How to get started?
     *Since the project is deployed on heroku you can visit it by 
-    [CLICKING HERE](https://tranquil-reaches-74465.herokuapp.com/)
+    [CLICKING HERE](https://sheltered-depths-43019.herokuapp.com/)
 
 ## What is does this project use?
    *This application utilize: MySQL, Node, Express, Handlebars and a ORM. 
