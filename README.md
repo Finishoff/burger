@@ -1,10 +1,6 @@
 # Burger
 ![Screenshot of app](https://github.com/Finishoff/burger/blob/master/public/assets/image/burgerhome.png)
 
-![Screenshot of app](https://github.com/Finishoff/Bamazon/blob/master/x)
-
-![Screenshot of app](https://github.com/Finishoff/Bamazon/blob/master/x)
-
 How to get started?
     *Since the project is deployed on heroku you can visit it by 
     [CLICKING HERE](https://sheltered-depths-43019.herokuapp.com/)
