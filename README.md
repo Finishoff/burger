@@ -1,5 +1,5 @@
 # Burger
-![Screenshot of app](https://github.com/Finishoff/Bamazon/blob/master/x)
+![Screenshot of app](https://github.com/Finishoff/burger/blob/master/public/assets/image/burgerhome.png)
 
 ![Screenshot of app](https://github.com/Finishoff/Bamazon/blob/master/x)
 
